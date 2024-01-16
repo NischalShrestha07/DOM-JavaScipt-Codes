@@ -1,0 +1,41 @@
+<!-- Error Wrong -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
+
+</head>
+
+<body>
+    <p id="nischal"></p>
+    <button onclick="displayData()">Click ME</button>
+
+
+    <script>
+
+        function displayData() {
+            var currentDate = new Date();
+            var year = currentDate.getFullYear();
+            var month = currentDate.getMonth();
+            var day = currentDate.getDay();
+            var hour = currentDate.getHours();
+            var minute = currentDate.getMinutes();
+            var second = currentDate.getSeconds
+
+
+            formatedData = '${year}-${month}-${day}-${hour}-${minute}-${second}'
+
+
+            document.getElementById("nischal").innerHTML = formatedData;
+        }
+        //displayData();
+
+    </script>
+</body>
+
+</html>
