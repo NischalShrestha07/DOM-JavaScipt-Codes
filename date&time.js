@@ -37,6 +37,7 @@ if (hour === 0 && check == 'PM') {
 }
 
 //another checks the case when hour can be 0 for 'AM'
+//*triple equals(===) is a strict equality comparison operator, meaning it checks both value and data type.So, it's checking if the value of hour is exactly 0.*/
 if (hour === 0 && check === 'AM') {
     if (minute === 0 && second === 0) {
         hour = 12;
