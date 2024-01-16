@@ -1,7 +1,10 @@
+// var today = new Date();
 var today = new Date();
+// Date() is a method which has been already predefined in the interpreter
 
-// / Get the day of the week (0-6, where 0 is Sunday and 6 is Saturday)
+// / Get the day of the week (0-6 in the form of indexes, where 0 is Sunday and 6 is Saturday)
 var day = today.getDay();
+// getDate() is a method which has been already predefined in the interpreter
 
 var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thusday", "Friday", "Saturday"]
 
