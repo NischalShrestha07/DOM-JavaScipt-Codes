@@ -6,7 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lets Calculate It</title>
     <style>
+        .container {
+            text-align: center;
+            font-size: 20px;
+            font-family: cursive;
 
+        }
+
+        .container h1 {
+            margin: 45px;
+
+        }
+
+        .container h2 {
+            margin: 45px;
+            font-size: 45px;
+            font-weight: bold;
+            border: 5px solid red;
+            border-radius: 30px;
+            padding: 15px;
+            background: greenyellow;
+        }
+
+        input {
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 35px;
+            width: 150px;
+            color: black;
+            font-family: cursive;
+            font-weight: bold;
+            border: 3px solid black;
+            margin: 20px;
+
+        }
+
+        .btn {
+            border-radius: 15px;
+            border: 3px solid black;
+            font-family: cursive;
+            width: 170px;
+            background: red;
+            color: white;
+            margin: 15px;
+
+        }
+
+        .btn:hover {
+            font-size: 33px;
+            box-shadow: 5px 5px 5px black;
+
+
+        }
+
+        p {
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 45px;
+            font-weight: bold;
+            font-family: cursive;
+            font-style: oblique;
+
+        }
     </style>
 </head>
 
@@ -14,15 +77,44 @@
 
 </body>
 <div class="container">
+    <h2>Welcome to Nischal's Calculator </h2>
     <h1>1st Number:<input type="text" id="firstNum"></h1>
     <h1>2nd Number:<input type="text" id="secondNum"></h1>
-    <input type="button" onclick="add()" value="Addition">
-    <input type="button" onclick="subtract()" value=" Subtract">
-    <input type="button" onclick="multiply()" value=" Multiply">
-    <input type="button" onclick="divide()" value=" Divide">
+    <input class="btn" type="button" onclick="add()" value="Addition">
+    <input class="btn" type="button" onclick="subtract()" value="Subtract">
+    <input class="btn" type="button" onclick="multiply()" value="Multiply">
+    <input class="btn" type="button" onclick="divide()" value=" Division">
 </div>
 <p>The result of the operation is:
-    <span id="result">result</span>
+    <span id="result"></span>
 </p>
+
+
+<script>
+    function add() {
+        num1 = document.getElementById("firstNum").value; 0
+        num2 = document.getElementById("secondNum").value;
+        document.getElementById("result").innerHTML = parseInt(num1) + parseInt(num2);
+
+    }
+
+    function subtract() {
+        num1 = document.getElementById("firstNum").value;
+        num2 = document.getElementById("secondNum").value;
+        document.getElementById("result").innerHTML = num1 - num2;
+    }
+
+    function multiply() {
+        num1 = document.getElementById("firstNum").value;
+        num2 = document.getElementById("secondNum").value;
+        document.getElementById("result").innerHTML = parseInt(num1) * parseInt(num2);
+    }
+
+    function divide() {
+        num1 = document.getElementById("firstNum").value;
+        num2 = document.getElementById("secondNum").value;
+        document.getElementById("result").innerHTML = parseInt(num1) / parseInt(num2);
+    }
+</script>
 
 </html>
