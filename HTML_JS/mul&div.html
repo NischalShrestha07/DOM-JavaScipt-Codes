@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Multipication and Division</title>
+    <style>
+        #FirstNumber {
+            margin: 12px;
+        }
+
+        input {
+            border-radius: 10px;
+            padding: 5px;
+            font-size: 20px;
+        }
+
+        #btn {
+            margin: 12px;
+            background: greenyellow;
+            border: 2px solid black;
+            font-family: cursive;
+
+        }
+
+        #btn:hover {
+            box-shadow: 5px 5px 5px black;
+            font-family: cursive;
+            font-size: 22px;
+        }
+
+        form {
+            font-family: cursive;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        p {
+            font-family: cursive;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="">
+        1st Number:<input type="text" id="FirstNumber"><br>
+        2st Number:<input type="text" id="SecondNumber"><br>
+        <input id="btn" type="button" onclick="multiplyBy()" value="multiply">
+        <input id="btn" type="button" onclick="divideBy()" value="division">
+
+    </form>
+    <p>The result is: <br>
+        <span id="result"></span>
+    </p>
+    <script>
+        function multiplyBy() {
+            num1 = document.getElementById("FirstNumber").value;
+            num2 = document.getElementById("SecondNumber").value;
+
+            document.getElementById("result").innerHTML = num1 * num2;
+
+
+        }
+        function divideBy() {
+            num1 = document.getElementById("FirstNumber").value;
+            num2 = document.getElementById("SecondNumber").value;
+
+            document.getElementById("result").innerHTML = num1 / num2;
+
+
+        }
+    </script>
+</body>
+
+</html>
