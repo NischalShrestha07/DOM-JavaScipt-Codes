@@ -13,9 +13,18 @@
 <body>
 
     <script>
-        document.querySelector("html").addEventListener("click", function () {
-            alert("ouch Stop Poking Me")
+        /*     document.querySelector("html").addEventListener("click", function () {
+                 alert("ouch Stop Poking Me")
+             })*/
+
+
+        //*****ALTERNATIVE WAY*****
+        //  instead of function() which is used above  we can use arrow function as well which is shown below
+        document.querySelector("html").addEventListener("click", () => {
+            alert("Ouch! Stop Pokimg me Bro")
         })
+
+
     </script>
 </body>
 
