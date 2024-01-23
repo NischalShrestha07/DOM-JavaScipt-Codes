@@ -4,38 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click Changes the myImages</title>
+    <title>Click Changes the my<title>
 
-</head>
+            <head>
 
-<body>
+            <body>
+                <!-- HTML code -->
+                <img id="myImg" src="canon.webp">
+                <button id="myButton">Change Image<button>
 
-    <script>
-        //const myImage = document.querySelector("img")
+                        <script>
+                            /*   const myImage = document.querySelector("img")
+   
+                                   * myImage.onclick = () => {
+                                       const mySrc = myImage.getAttribute("src")
+                                       if (mySrc === "canon.webp") {
+                                           myImage.setAttribute("src", "iphone.webp");
+                                       }
+                                       else {
+                                           myImage.setAttribute("src", "canon.webp");
+                                       }
+                                   };
 
-        /*    myImage.onclick = () => {
-                const mySrc = myImage.getAttribute("src")
-                if (mySrc === "images/canon.webp") {
-                    myImage.setAttribute("src", "images/iphone.webp");
-                }
-                else {
-                    myImage.setAttribute("src", "images/canon.webp");
-                }
-            };*/
+                                 const myImage = document.querySelector("img");
+              
+                                          myImage.onclick = () => {
+                                              const mySrc = myImage.getAttribute("src");
+                                              if (mySrc === "canon.webp") {
+                                                  myImage.setAttribute("src", "iphone.webp");
+                                              } else {
+                                                  myImage.setAttribute("src", "canon.webp");
+                                              }
+                                          };
+                                          */
 
-        const myImage = document.querySelector("img");
+                            //JavaScript code
+                            const myImg = document.getElementById("myImg");
+                            const myButton = document.getElementById("myButton");
 
-        myImage.onclick = () => {
-            const mySrc = myImage.getAttribute("src");
-            if (mySrc === "images/canon.webp") {
-                myImage.setAttribute("src", "images/iphone.webp");
-            } else {
-                myImage.setAttribute("src", "images/canon.webp");
-            }
-        };
+                            myButton.addEventListener("click", function () {
+                                myImg.src = "canon.webp";
+                            });
 
-
-    </script>
-</body>
-
-</html>
+                        </script>
+                    </button>
+            </body>
+            <html>
