@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of the DOM in JS</title>
+    <style>
+        button {
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: cursive;
+            background: green;
+            color: white;
+
+        }
+
+        button:hover {
+            box-shadow: 5px 5px 5px black;
+            font-size: 17px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <p id="nischal">i want to learn everything</p>
+    <!-- <p id="nischal">i want to learn everything</p> -->
+    <button id="jsStyle" onclick="jsStyle()" onclick=" anotherStyle()">Click Me to see the Changes</button>
+
+    <script>
+        function anotherStyle() {
+
+        }
+        function jsStyle() {
+            nischal.style.fontFamily = "cursive"
+            nischal.style.padding = "10px"
+            nischal.style.margin = "30px"
+            nischal.style.textAlign = "center"
+            nischal.style.fontSize = "30px"
+            nischal.style.background = "green"
+            nischal.style.color = "white"
+            nischal.style.borderRadius = "30px"
+            nischal.style.border = "5px solid red"
+            nischal.style.boxShadow = "5px 5px 5px  green"
+        }
+
+
+    </script>
+</body>
+
+</html>
