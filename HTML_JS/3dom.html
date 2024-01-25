@@ -9,7 +9,21 @@
 </head>
 
 <body>
-
+    <form id="form1" submit="getFormvalue()">
+        First Name:<input type="text" name="fname" value="Nischal"><br>
+        Last Name:<input type="text" name="lname" value="Shrestha"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        function getFormvalue() {
+            var x = document.getElementById("form1")
+            for (let i = 0; i < x.length; i++) {
+                if (x.elements[i].value != 'Submit') {
+                    console.log(x.elements[i].value)
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
