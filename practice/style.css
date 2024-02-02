@@ -22,3 +22,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+#detail {
+    margin: 20px;
+}
+
+#detail input {
+    margin: 10px;
+
+}
