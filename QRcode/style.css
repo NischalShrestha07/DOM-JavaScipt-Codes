@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrContainer {
+    border: 3px solid orangered;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.qrContainer h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
