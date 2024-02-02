@@ -31,3 +31,24 @@ body {
     font-size: 35px;
     letter-spacing: 5px;
 }
+
+#qrInput {
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+}
+
+#qrButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background: rgb(9, 204, 28);
+    border-radius: 15px;
+    color: white;
+    font-family: cursive;
+
+}
