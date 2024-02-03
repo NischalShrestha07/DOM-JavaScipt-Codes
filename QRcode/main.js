@@ -13,6 +13,6 @@ qrButton.addEventListener('click', () => {
 
     }
     else {
-        qrim
+        qrImg
     }
 });
