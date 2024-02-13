@@ -1,5 +1,7 @@
 
-
+const changeBgRed = () => {
+    document.body.firstElementChild.style.background = "red"
+}
 let b = document.body;
-console.log("FIrst Child of b is", b.firstChild);
-console.log("First Elemnt child of the b is:", b.firstElementChild);
+console.log("First Child of b is", b.firstChild);
+console.log("First Element child of the b is:", b.firstElementChild);
