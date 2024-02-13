@@ -1,3 +1,0 @@
-// Snake water gun game
-
-
