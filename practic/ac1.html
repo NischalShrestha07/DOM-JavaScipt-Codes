@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div id="box"  name="beauty" aria-placeholder="flower">Flowers are beautiful</div>
+<img src="link" alt="flower">
+<p class="para">This  is a paragraph</p>
+
+
+    <script>
+let div= document.querySelector("div")
+console.log(div)
+
+let para= document.querySelector("p")
+console.log(para)
+
+let id=div.getAttribute("id")
+console.log(id)
+
+let hello=div.getAttribute("name")
+console.log(hello)
+
+let bet=div.getAttribute("aria-placeholder")
+console.log(bet)
+div.style.background ="red"
+para.style.background ="blue"
+para.style.color ="yellow"
+para.style.fontFamily ="cursive"
+div.style.fontFamily ="cursive"
+    </script>
+</body>
+
+</html>
