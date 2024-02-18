@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+</head>
+<style>
+  span,p,  div{
+    border: 2px solid black;
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    }
+</style>
+<body>
+        <div class="para" name="Harry">
+            Welcome to my tutorial
+        </div>
+        <p class="nara">
+            Please do Subscribe it
+        
+        </p>
+        <span>
+            Please do Subscribe it
+        
+        </span>
+
+    <script>
+        
+        let a=document.querySelector("div")
+        console.log(a)
+        a.innerText="I Changed It Congrats"
+       
+     b=document.querySelector("p")
+        //b=document.getElementsByClassName("nara")
+        b.style.background="red"
+        b.style.color="greenyellow"
+        b.style.fontWeight="bold"
+        b.style.fontFamily="cursive"
+        b.style.fontSize="25px"
+
+
+  
+    </script>
+</body>
+</html>
