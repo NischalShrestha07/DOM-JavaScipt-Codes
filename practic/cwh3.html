@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="first">
+            I am The First Element
+        </div>
+    </div>
+    
+    <script>
+        let a=document.getElementsByTagName('div')[0]
+        a.innerHTML=a.innerHTML+<h1>Ehllo World</h1>
+
+let div=document.createElement('div')
+div.innerHTML='<h1> Helllo world</h1>'
+a.appendChild(div)
+
+    </script>
+</body>
+</html>
