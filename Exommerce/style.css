@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    padding: 15px;
+    background: greenyellow;
+    color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    /* border-bottom: 3px solid red; */
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+}
+
+.navbar h1 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 8px;
+    align-items: center;
+
+}
+
+.navbar img {
+    /* margin-top: 5px; */
+    border-radius: 15px;
+    width: 55px;
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+
+
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.btn1 {
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 20px;
+    border: 2px solid black;
+    background: rgb(131, 114, 119);
+    color: white;
+}
+
+
+
+.btn1:hover {
+    box-shadow: 3px 5px 5px black;
+    font-size: 20.2px;
+
+}
+
+.btn2:hover {
+    box-shadow: 3px 5px 5px black;
+    font-size: 20.1px;
+    transform: scale(1.01);
+    transition: ease-in-out;
+    background: rgb(175, 36, 36);
+    color: white;
+}
+
+.sign img {
+    width: 35px;
+}
+
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.products h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.products span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.firstContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.b2 img {
+    margin-left: 10vw;
+    width: 35vw;
+}
+
+.b1 img {
+    width: 5vw;
+
+}
+
+.b1 span {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'santserret', sans-serif;
+}
+
+.btn2 {
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(133, 38, 38);
+    color: white;
+    border: 3px solid black;
+    font-weight: bold;
+
+}
+
+.secondContainer h1 {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-bottom: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    margin-top: 100px;
+
+}
+
+.proPart2 img {
+    border-radius: 15px;
+
+}
+
+.proPart2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    margin-top: 100px;
+
+}
+
+.products img {
+    border-radius: 15px;
+}
+
+.proPart2 h1 {
+    text-align: center;
+}
+
+.fourthContainer {
+    border-radius: 15px;
+}
+
+.p1 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.p2 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.p3 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.p4 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.fourthContainer h2 {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 45px;
+    /* margin-bottom: 105px; */
+    border-bottom: 4px solid red;
+}
+
+.proPart2 span {
+    /* text-align: center; */
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+}
+
+/* .proPart3 span {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+} */
+
+
+.p1:hover {
+    transform: scale(1.07);
+}
+
+.p2:hover {
+    transform: scale(1.07);
+}
+
+.p3:hover {
+    transform: scale(1.07);
+}
+
+.p4:hover {
+    transform: scale(1.07);
+}
+
+.thirdContainer {
+    display: flex;
+    padding: 25px;
+    margin: 7vw;
+    background: #FBEBFF;
+    justify-content: center;
+    align-items: center;
+    gap: 18vw;
+}
+
+.details h1 {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.details span {
+    font-size: 28px;
+    margin: 65px 0;
+}
+
+.btn3 {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background: red;
+    color: white;
+    border: 2px solid rgb(21, 3, 3);
+}
+
+.btn3:hover {
+    box-shadow: 3px 5px 5px black;
+    transform: scale(1.03);
+    transition: ease-in-out;
+    background: rgb(175, 36, 36);
+    color: white;
+
+}
+
+.fifthContainer {
+    margin: 5vw 7vw;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10vw;
+    background: #FCE6FF;
+    font-size: 35px;
+}
+
+.fifthContainer input {
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 25px;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn4 {
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacts {
+    margin: 4vw 7vw;
+    background: grey;
+    padding: 10vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 45px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+    gap: 45px;
+    font-size: 55px;
+
+}
+
+.datas {
+    padding: 45px;
+}
+
+.datas li a {
+    font-size: 35px;
+    margin: 0 25px;
+    color: rgb(55, 1, 232);
+    border-bottom: 3px solid red;
+
+}
+
+.name h1 {
+    padding-top: 15px;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(138, 124, 124);
+    font-size: 30px;
+    padding: 15px;
+}
