@@ -9,7 +9,7 @@
     <ul id="menu">
         <li>Home</li>
         <li>About</li>
-        <li>Blog</li>
+        <li style="display: none;">Blog</li>
         <li style="display: flex; justify-Content: center">Project</li>
     </ul>
     <script>
@@ -19,6 +19,12 @@ let listName=document.createElement("li")
 listName.innerHTML="Memories"
 menu.appendChild(listName)
 
+
+
+//the textContent will show the all the details(Hidden data) as well in the console inspect
+console.log("The all datas as well as hidden are listed below")
+console.log(menu.textContent)
+menu.innerHTML="<h1>Jelly</h1>"// this erases all the list and prints only Jelly from there.
     </script>
 </body>
 </html>
