@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apending the li Using JS</title>
+
+</head>
+<body>
+   <div id="hello">
+    <li>Home</li>
+    <li>Academmic Level</li>
+    <li>Resources</li>
+    <li>Datas</li>
+
+   </div> 
+   <script>
+    let grab=document.getElementById("hello")
+    let listName=document.createElement("li")
+listName.innerHTML="Contact Us"
+ grab.appendChild(listName)
+   </script>
+</body>
+</html>
