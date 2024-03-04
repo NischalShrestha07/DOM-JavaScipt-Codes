@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display None</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li style="display: flex; justify-Content: center">Project</li>
+    </ul>
+    <script>
+        let menu=document.getElementById("menu")
+    console.log(menu.textContent)//Thsi textContent displays the content it consist in console.
+let listName=document.createElement("li")    
+listName.innerHTML="Memories"
+menu.appendChild(listName)
+
+    </script>
+</body>
+</html>
