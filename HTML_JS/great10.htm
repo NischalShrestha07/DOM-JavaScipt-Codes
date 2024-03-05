@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removing the list using js</title>
+
+</head>
+<body>
+    <!-- <div id="menu">
+        <li>Home</li>
+        <li>Shop</li>
+        <li>rate</li>
+        <li>brothee</li>
+        <li>Items</li>
+        <li>Contact</li>
+    </div> -->
+<input type="text" id="username" placeholder="username">
+
+    <script>
+        let menu=document.getElementById("menu")
+       // menu.removeChild(menu.lastElementChild)//remove the last child 
+       // menu.removeChild(menu.firstElementChild)//remove the first child 
+       // menu.insertBefore(newNode,menu.firstElementChild)
+
+       let inputBox=document.getElementById("username")
+       //console.log(inputBox.attributes)
+//console.log(inputBox.getAttribute("type"))
+
+
+//We can read the value of the attribute by using getAttribute() function as shown in below.
+console.log(inputBox.getAttribute("type")) 
+console.log(inputBox.getAttribute("id")) 
+console.log(inputBox.getAttribute("placeholder")) 
+    </script>
+</body>
+</html>
