@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- two class can be passed which is shown below -->
+    <h1 id="title" class="main message">Greatest MAN </h1>
+    <script>
+
+        let title =document.getElementById("title")
+
+        //below we try to pass new class but it overrides the before two class and only shows the below one  
+      //  title.className="new"
+
+
+//below concatination helps to get the existing old classes as well
+      //  title.className+=" new"
+        console.log("The class presented are:", title.className)
+       //console.log(title.className)
+    </script>
+</body>
+</html>

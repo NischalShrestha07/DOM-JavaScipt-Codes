@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About getComputedStyle</title>
+    <style>
+    
+        #username{
+            background: red;
+            font-size: 12px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="username" placeholder="Username">
+
+
+    <script>
+        let inputBox=document.getElementById("username")
+        
+        //getComputedStyle helps to see the attributes value drom the style which is shown in the console
+        console.log(window.getComputedStyle(inputBox).backgroundColor)
+        console.log(window.getComputedStyle(inputBox).width)
+
+    </script>
+</body>
+</html>
