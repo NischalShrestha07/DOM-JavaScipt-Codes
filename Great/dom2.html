@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 2</title>
+
+</head>
+<body>
+<div>
+    <h1 class="message">First Heading</h1>
+    <h1 class="message">Second Heading</h1>
+    <h1 class="message">Third Heading</h1>
+
+</div>
+<script>
+//let ms=document.getElementsByClassName("message")
+let ms=document.getElementById("message")
+console.log(ms)
+ms.style.background="green"
+
+//the style insertion cannot be access in getElementsByClassName() but in getElementById() and querySelector() we can do it
+//And the the . or # should be used while working with querySelector()
+</script>
+</body>
+</html>
