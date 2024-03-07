@@ -16,6 +16,8 @@
     <script>
         let menu=document.getElementById("menu")
         let add=document.createElement("button")
+        console.log(menu.textContent)//it shows in the middle with only text
+        console.log(menu.innerText)//it shows in the left with only text
         add.innerHTML="Link"
         menu.appendChild(add)
     </script>
