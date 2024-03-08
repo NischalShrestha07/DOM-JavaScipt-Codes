@@ -13,7 +13,13 @@
         <li>Details</li>
     </div>
 
+    <input type="text" placeholder="UserName" id="username">
     <script>
+let inputBox=document.getElementById("username")
+console.log("The attributes of the placeholder is:")
+console.log(inputBox.getAttribute("placeholder"))
+
+
         let menu=document.getElementById("menu")
         let add=document.createElement("button")
         console.log(menu.textContent)//it shows in the middle with only text
