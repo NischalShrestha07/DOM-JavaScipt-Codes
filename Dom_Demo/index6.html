@@ -6,16 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <style>
+        :root {
+            --color: blue;
+            --secColor: yellow
+        }
+
+        nav {
+            /*background: red;*/
+            background: var(--secColor);
+        }
+
+        .container {
+            /*background: greenyellow;*/
+            background: var(--color);
+        }
+
+
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            list-style: none;
+
+        }
+    </style>
 </head>
 
 <body>
-    <div>
+    <nav>
         <ul>
             <li>Home</li>
             <li>Contact</li>
             <li>Frog</li>
         </ul>
-    </div>
+    </nav>
     <div class="container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veniam adipisci laboriosam quaerat dolores ea
         nisi. Itaque assumenda voluptas iusto dolorum dolores, praesentium sunt quo ab nemo expedita doloremque?
