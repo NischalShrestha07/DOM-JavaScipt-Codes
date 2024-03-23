@@ -22,5 +22,5 @@ for(const letter of arr)
 {
     const li=document.createElement("li")
     li.textContent=Letter
-    letterResult.appendChild(FileList)
+    letterResult.appendChild(li)
 }
