@@ -1,0 +1,43 @@
+<!-- // fruits[5]="mango"
+// console.log(fruits[5]);
+// console.log(Object.keys(fruits));
+// console.log(fruits.length);
+
+
+// // const array1=['a','b','c']
+// const array1=['mango','orange','kiwi']
+// const iterator1=array1[Symbol.iterator]();
+
+// for(const value of iterator1)
+// {
+// console.log(value);
+
+// }
+
+
+
+// const arr=['hari','shuam','ram','krishna']; -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="letterResult"></p>
+    <script>
+        const arr = ["name", "address", "god"]
+        const letterResult = document.getElementById("letterResult");
+        for (const letter of arr) {
+            const li = document.createElement("li");
+            li.textContent = letter;
+            letterResult.appendChild(li);
+        }
+    </script>
+</body>
+
+</html>
