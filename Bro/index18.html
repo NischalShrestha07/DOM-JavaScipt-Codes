@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="" id="myLabel"></label>
+
+    <script>
+        let username = "Nischal"
+        let item = 3
+        let total = 75
+        console.log("Hello", username)
+        console.log("You have", item, "items in your cart")
+        console.log("Your total is $", total)
+
+
+        console.log(`Hello ${username}`)
+        console.log(`You have ${item} in your cart`)
+        console.log(`Your total is ${total}`)
+
+
+        let text =
+            `Hello ${username}<br>
+        You have ${item} in your cart<br>
+        Your total is ${total}<br>`
+
+        /*    console.log(text)*/
+        document.getElementById("myLabel").innerHTML = text
+
+    </script>
+</body>
+
+</html>
