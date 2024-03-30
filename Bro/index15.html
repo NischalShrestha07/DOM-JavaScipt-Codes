@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<label id="area"></label>
+<input>
+
+<body>
+    <script>
+        let area, width, height
+        width = window.prompt("Enter width:")
+        height = window.prompt("Enter height:")
+        area = getArea(width, height)
+
+        console.log("The area is:", area)
+
+
+        function getArea(width, height) {
+            return width * height
+        }
+
+    </script>
+</body>
+
+</html>
