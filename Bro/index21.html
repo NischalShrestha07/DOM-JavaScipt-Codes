@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>Welcome to the NUmber Guessing Game</h1>
+        <p>Pick a number between 1 to 10</p>
+        <label for="">Enter the number: </label>
+
+        <input id="guessNumber">
+        <input type="submit" id="submitButton">
+        <script>
+            answer = Math.floor(Math.random() * 10 + 1)
+            document.getElementById("submitButton").onclick = function () {
+                document.getElementById("guessNumber").value
+            }
+        </script>
+    </div>
+
+</body>
+
+</html>
