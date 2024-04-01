@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        let fruit = ["apple", "banana", "mango"]
+        console.log(fruit[0])
+        for (let i = 1; i < fruit.length; i++) {
+            console.log(fruit[i])
+        }
+        fruit[0] = "Cocunut"
+        console.log(fruit[0])
+        fruit.push("nischal")
+        // fruit.pop()//removes the last elements
+        fruit.inshift("lemon")//add elements to begaining
+        fruit.shift()//remove elements from begaining
+
+        console.log('The fruits list after change of item are:')
+        for (let i = 1; i < fruit.length; i++) {
+            console.log(fruit[i])
+        }
+    </script>
+
+</body>
+
+</html>
