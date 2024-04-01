@@ -13,7 +13,7 @@
 <body>
     <div class="box">
 
-        <h1>Welcome to the NUmber Guessing Game</h1>
+        <h1>Welcome to the Number Guessing Game</h1>
         <p>Pick a number between 1 to 10</p>
         <label for="">Enter the number: </label>
 
@@ -21,8 +21,23 @@
         <input type="submit" id="submitButton">
         <script>
             answer = Math.floor(Math.random() * 10 + 1)
+            let guesses = 0
             document.getElementById("submitButton").onclick = function () {
-                document.getElementById("guessNumber").value
+                let guess = document.getElementById("guessNumber").value
+                guesses += 1
+                if (guess == answer) {
+                    alert(`${answer} is the #. It took you ${guesses} guess`)
+
+                }
+                else if (guess < answer) {
+                    alert("Too small")
+                }
+
+                else {
+
+                    alert("Too large ")
+                }
+
             }
         </script>
     </div>

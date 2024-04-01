@@ -5,18 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Number Guessing Game</title>
+    <style>
+        .main {
+            background: greenyellow;
+            padding: 10px 35px 50px;
+            border-radius: 15px;
+            border: 5px solid black;
+
+
+        }
+
+        .header h1 {
+            border-radius: 25px;
+            padding: 5px 10px;
+
+            text-align: center;
+            font-family: cursive;
+            font-weight: 900;
+            font-size: 35px;
+            background: linear-gradient(red, blue, green);
+            color: greenyellow;
+
+        }
+
+        header {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            font-weight: 900;
+            color: blueviolet;
+        }
+
+        span {
+            text-align: center;
+        }
+    </style>
 </head>
 
 
 <body>
-    <h1>Number Guessing game</h1>
-    <p>Pick a # between 1 -10</p>
-    <label for="">Enter a guess</label>
+    <header>
+        WELCOME
+    </header>
+    <div class="main">
 
-    <input id="guessField">
-    <input type="submit" id="submitButton">
+        <div class="header">
 
+            <h1>Number Guessing game</h1>
+        </div>
+        <span>Pick a # between 1 -10</span>
+        <label for="">Enter a guess</label>
+        <br>
+        <input id="guessField">
+        <br>
+        <button type="submit" id="submitButton">Submit</button>
+
+
+        <!-- <button type="submit" value="Submit" id="submitButton"> -->
+    </div>
     <script>
         const answer = Math.floor(Math.random() * 10 + 1)
         let guesses = 0
