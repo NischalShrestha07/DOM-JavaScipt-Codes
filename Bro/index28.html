@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let student = ["naruto", "goku", "luffy"]
+        student.forEach(capitalize);
+        student.forEach(print);
+
+        function capitalize(element, index, array) {
+            array[index] = element[0].toUpperCase() + element.substring(1)
+
+        }
+
+
+        function print(element) {
+            console.log(element)
+
+        }
+    </script>
+</body>
+
+</html>
