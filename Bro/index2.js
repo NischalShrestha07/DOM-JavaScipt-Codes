@@ -7,4 +7,4 @@
 //     return releaseEvents
 // }
 
-let prices=[pp   ]
+let prices=[]
