@@ -4,6 +4,6 @@ class railwayForm{
 
     }
     cancel(){
-        alert("This form is")
+        alert("This form is cancelled")
     }
 }
