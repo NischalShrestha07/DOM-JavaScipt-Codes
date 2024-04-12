@@ -7,3 +7,5 @@ class railwayForm{
         alert("This form is cancelled")
     }
 }
+
+let Itsme=new railwayForm()
