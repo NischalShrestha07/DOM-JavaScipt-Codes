@@ -8,6 +8,7 @@ console.log(obj)
 let animal={
     eats:true
 
+    
 
 }
 let rabbit={
