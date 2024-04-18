@@ -22,6 +22,9 @@ const d=new Dog("Roman")
 d.speak()
 
 
+
+
+// Another One
 class Cat{
     constructor(name)
     {
