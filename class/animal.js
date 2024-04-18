@@ -9,6 +9,9 @@ class Animal{
     eat(){
         console.log(`${this.name} want to eat.`);
     }
+    walk(){
+        console.log(`${this.name} walks`);
+    }
 }
 
 class Dog extends Animal{
@@ -31,8 +34,10 @@ class Dog extends Animal{
 const d=new Dog("Roman")
 d.speak()
 d.eat()
+d.walk()
 
-
+const m=new Animal("Tiger")
+m.walk()
 
 
 // Another One
