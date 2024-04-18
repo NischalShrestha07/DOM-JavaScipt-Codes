@@ -6,6 +6,9 @@ class Animal{
     speak(){
         console.log(`${this.name} makes a noise.`);
     }
+    eat(){
+        console.log(`${this.name} want to eat.`);
+    }
 }
 
 class Dog extends Animal{
@@ -17,9 +20,17 @@ class Dog extends Animal{
     {
         console.log(`${this.name} is barking.`);
     }
+    eat()
+    {
+        console.log(`${this.name} is eating food.`);
+    }
+    walk(){
+        console.log(`${this.name} is walking.`);
+    }
 }
 const d=new Dog("Roman")
 d.speak()
+d.eat()
 
 
 
