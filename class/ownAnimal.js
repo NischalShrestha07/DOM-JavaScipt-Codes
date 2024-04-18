@@ -8,7 +8,7 @@ class gymEquipment{
 //     console.log(`${this.name} is using in Biceps Exercise`);
 // }
 }
-class letsGo extends gymEquipment{
+class letsGo extends gymEquipment{ 
     constructor(name)
     {
     super(name)
