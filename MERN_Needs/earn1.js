@@ -13,5 +13,5 @@ function add (){
     return sum
 
 }
-result=add(45,5,45,10)
+result=add(5,5,20,10)
 console.log(result);
